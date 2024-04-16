@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      domain="dev-sc8lywc7rb0kor6k.us.auth0.com"
      clientId="ESiHWzQCXGyuIsyZmUheCeC2zgIWEHag"
      authorizationParams={{
-      redirect_uri: "http://localhost:5173"
+      redirect_uri: "https://pitch-hub.vercel.app"
      }}
      audience="http://localhost:8000"
      scope="openid profile email"
