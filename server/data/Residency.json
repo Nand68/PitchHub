@@ -12,48 +12,5 @@
       "createdAt": { "$date": "2023-04-14T10:38:48.762Z" },
       "updatedAt": { "$date": "2023-04-14T10:38:48.762Z" },
       "facilities": { "bathrooms": "2", "parking": "1", "bedrooms": "5" }
-    },
-    {
-      "_id": { "$oid": "64392e0bdfd90fb29e464fbc" },
-      "title": "Modily Fashions",
-      "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
-      "price": 88000,
-      "address": "Main maharaj chowk,delhi,india",
-      "city": "Delhi",
-      "country": "India",
-      "image": "https://3.bp.blogspot.com/-84l-BoUL090/VTDHcQzSTNI/AAAAAAAAuHI/Khftta_CF5E/s1920/wow-home-design.jpg",
-      "facilities": { "bathrooms": "5", "parking": "1", "bedrooms": "4" },
-      "userEmail": "mukhtarhamza294@gmail.com",
-      "createdAt": { "$date": "2023-04-14T10:42:19.231Z" },
-      "updatedAt": { "$date": "2023-04-14T10:42:19.231Z" }
-    },
-    {
-      "_id": { "$oid": "6439001c74446601d6fce96d" },
-      "title": "Buza Foods",
-      "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
-      "price": 3000,
-      "address": "Street 3,mochako road,california,us",
-      "city": "California",
-      "country": "US",
-      "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "userEmail": "mukhtarhamza294@gmail.com",
-      "createdAt": { "$date": "2023-04-14T07:26:20.051Z" },
-      "updatedAt": { "$date": "2023-04-14T07:26:20.051Z" },
-      "facilities": { "bathrooms": "3", "parking": "1", "bedrooms": "2" }
-    },
-    {
-      "_id": { "$oid": "64392e1edfd90fb29e464fbd" },
-      "title": "",
-      "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
-      "price": 3800,
-      "address": "Street 4",
-      "city": "Karachi",
-      "country": "Pakistan",
-      "image": "https://e0.pxfuel.com/wallpapers/12/377/desktop-wallpaper-beautiful-houses-beautiful-mansion.jpg",
-      "facilities": { "bathrooms": "2", "parking": "1", "bedrooms": "3" },
-      "userEmail": "mukhtarhamza294@gmail.com",
-      "createdAt": { "$date": "2023-04-14T10:42:37.946Z" },
-      "updatedAt": { "$date": "2023-04-14T10:42:37.946Z" }
     }
-    
   ]
