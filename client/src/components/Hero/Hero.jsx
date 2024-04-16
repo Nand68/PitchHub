@@ -20,12 +20,12 @@ const Hero = () => {
             >
               Discover <br />
               Most Suitable
-              <br /> Property
+              <br /> Businessses
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span>Welcome to Pitch Hub, where innovation meets opportunity</span>
+            <span>With Pitch Hub, the future is in your hands</span>
           </div>
 
           <SearchBar/>

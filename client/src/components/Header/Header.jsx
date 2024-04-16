@@ -28,7 +28,7 @@ const Header = () => {
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
         <Link to="/">
-          <img src="./logo.png" alt="logo" width={100} />
+          <img src="./logo.png" alt="logo" width={200} />
         </Link>
 
         {/* menu */}
@@ -42,12 +42,12 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <NavLink to="/properties">Properties</NavLink>
+            <NavLink to="/properties">Businesses</NavLink>
 
             <a href="mailto:zainkeepscode@gmail.com">Contact</a>
 
             {/* add property */}
-            <div onClick={handleAddPropertyClick}>Add Property</div>
+            <div onClick={handleAddPropertyClick}>Add Business</div>
             <AddPropertyModal opened={modalOpened} setOpened={setModalOpened} />
             {/* login button */}
             {!isAuthenticated ? (
