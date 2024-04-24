@@ -86,18 +86,18 @@ const Facilities = ({
       >
         <NumberInput
           withAsterisk
-          label="No of Bedrooms"
+          label="Total Revenue"
           min={0}
           {...form.getInputProps("bedrooms")}
         />
         <NumberInput
-          label="No of Parkings"
+          label="Total Gross Burn"
           min={0}
           {...form.getInputProps("parkings")}
         />
         <NumberInput
           withAsterisk
-          label="No of Bathrooms"
+          label="Total Member in Team"
           min={0}
           {...form.getInputProps("bathrooms")}
         />
@@ -106,7 +106,7 @@ const Facilities = ({
             Back
           </Button>
           <Button type="submit" color="green" disabled={isLoading}>
-            {isLoading ? "Submitting" : "Add Property"}
+            {isLoading ? "Submitting" : "Add Business"}
           </Button>
         </Group>
       </form>

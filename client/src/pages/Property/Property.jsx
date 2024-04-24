@@ -91,20 +91,20 @@ const Property = () => {
             <div className="flexStart facilities">
               {/* bathrooms */}
               <div className="flexStart facility">
-                <FaShower size={20} color="#1F3E72" />
-                <span>{data?.facilities?.bathrooms} Bathrooms</span>
+                {/* <FaShower size={20} color="#1F3E72" /> */}
+                <span>{data?.facilities?.bathrooms} = Revenue || </span>
               </div>
 
               {/* parkings */}
               <div className="flexStart facility">
-                <AiTwotoneCar size={20} color="#1F3E72" />
-                <span>{data?.facilities.parkings} Parking</span>
+                {/* <AiTwotoneCar size={20} color="#1F3E72" /> */}
+                <span>{data?.facilities.parkings} = Gross Burn || </span>
               </div>
 
               {/* rooms */}
               <div className="flexStart facility">
-                <MdMeetingRoom size={20} color="#1F3E72" />
-                <span>{data?.facilities.bedrooms} Room/s</span>
+                {/* <MdMeetingRoom size={20} color="#1F3E72" /> */}
+                <span>{data?.facilities.bedrooms} = Total Members ||</span>
               </div>
             </div>
 
@@ -149,7 +149,7 @@ const Property = () => {
                   validateLogin() && setModalOpened(true);
                 }}
               >
-                Book your visit
+                Invest Now
               </button>
             )}
 
