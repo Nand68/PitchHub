@@ -86,27 +86,27 @@ const Facilities = ({
       >
         <NumberInput
           withAsterisk
-          label="Total Revenue"
+          label="Profit"
           min={0}
-          {...form.getInputProps("bedrooms")}
+          {...form.getInputProps("Profit")}
         />
         <NumberInput
-          label="Total Gross Burn"
+          label="Gross Burn"
           min={0}
-          {...form.getInputProps("parkings")}
+          {...form.getInputProps("Gross Burn")}
         />
         <NumberInput
           withAsterisk
-          label="Total Member in Team"
+          label="Members"
           min={0}
-          {...form.getInputProps("bathrooms")}
+          {...form.getInputProps("Members")}
         />
         <Group position="center" mt="xl">
           <Button variant="default" onClick={prevStep}>
             Back
           </Button>
           <Button type="submit" color="green" disabled={isLoading}>
-            {isLoading ? "Submitting" : "Add Business"}
+            {isLoading ? "Submitting" : "Add Property"}
           </Button>
         </Group>
       </form>

@@ -11,6 +11,6 @@
       "userEmail": "mukhtarhamza294@gmail.com",
       "createdAt": { "$date": "2023-04-14T10:38:48.762Z" },
       "updatedAt": { "$date": "2023-04-14T10:38:48.762Z" },
-      "facilities": { "bathrooms": "2", "parking": "1", "bedrooms": "5" }
+      "facilities": { "ooms": "2", "parking": "1", "bedrooms": "5" }
     }
   ]
