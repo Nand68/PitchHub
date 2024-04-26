@@ -59,7 +59,7 @@ const Property = () => {
     return (
       <div className="wrapper">
         <div className="flexCenter paddings">
-          <span>Error while fetching the property details</span>
+          <span>Error while fetching the details</span>
         </div>
       </div>
     );
@@ -149,7 +149,7 @@ const Property = () => {
                   validateLogin() && setModalOpened(true);
                 }}
               >
-                Book your visit
+                Book your Investment
               </button>
             )}
 

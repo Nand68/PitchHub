@@ -37,7 +37,7 @@ const BasicDetails = ({ prevStep, nextStep, propertyDetails, setPropertyDetails 
         <TextInput
           withAsterisk
           label="Title"
-          placeholder="Property Name"
+          placeholder="Business Name"
           {...form.getInputProps("title")}
         />
         <Textarea

@@ -1,19 +1,31 @@
 [
     {
       "_id": { "$oid": "64392d39dfd90fb29e464fb7" },
-      "title": "Spark shoes",
-      "description": "Introducing our latest collection of footwear, crafted with precision and style to elevate your every step. From sleek sneakers to sophisticated loafers, our shoes blend timeless design with modern comfort. Each pair is meticulously crafted using premium materials, ensuring durability and lasting quality.Would you consider investing $60,000 in exchange for a 5% equity stake in our company?",
-      "price": 60000,
-      "address": "Gomti Nagar, Lucknow, Uttar Pradesh, India",
-      "city": "Lukhnow",
-      "country": "US",
-      "image": "https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "userEmail": "mukhtarhamza294@gmail.com",
+      "title": "Jombo Burger",
+      "description": "Welcome to Food Chain Burger, where every bite is a flavor-packed adventure. From juicy patties to signature sauces, our menu promises satisfaction in every bite. Join us for a taste experience like no other!",
+      "price": 800000,
+      "address": "Sakti Nagar, Bhopal, Madhya Pradesh, India",
+      "city": "Bhopal",
+      "country": "India",
+      "image": "https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "userEmail": "mddw123@gmail.com",
       "createdAt": { "$date": "2023-04-14T10:38:48.762Z" },
       "updatedAt": { "$date": "2023-04-14T10:38:48.762Z" },
-      "facilities": { "ooms": "2", "parking": "1", "bedrooms": "5" }
+      "facilities": { "bathrooms": "30", "parking": "10", "bedrooms": "77" }
+    },
+    {
+      "_id": { "$oid": "64392d39dfd90fb29e464fb7" },
+      "title": "Myka Fashion",
+      "description": "Welcome to Myka Fashion, where every piece speaks volumes of style and individuality. Explore our curated collection for timeless classics and bold statements that elevate your wardrobe. Join us in celebrating the art of self-expression through fashion!",
+      "price": 76000,
+      "address": "Trikon bag, Rajkot, Gujarat, India",
+      "city": "Rajkot",
+      "country": "India",
+      "image": "https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "userEmail": "nand4@gmail.com",
+      "createdAt": { "$date": "2023-04-14T10:38:48.762Z" },
+      "updatedAt": { "$date": "2023-04-14T10:38:48.762Z" },
+      "facilities": { "bathrooms": "40", "parking": "11", "bedrooms": "11" }
     }
-
-    
     
   ]
