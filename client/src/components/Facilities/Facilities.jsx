@@ -86,14 +86,14 @@ const Facilities = ({
       >
         <NumberInput
           withAsterisk
-          label="% Profit"
+          label="Profit"
           min={0}
-          {...form.getInputProps("% Profit")}
+          {...form.getInputProps("Profit")}
         />
         <NumberInput
-          label="10% Gross Burn"
+          label="Gross Burn"
           min={0}
-          {...form.getInputProps("10% Gross Burn")}
+          {...form.getInputProps("Gross Burn")}
         />
         <NumberInput
           withAsterisk
