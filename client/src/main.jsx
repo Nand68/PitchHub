@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      authorizationParams={{
       redirect_uri: "https://pitch-hub.vercel.app"
      }}
-     audience="https://pitch-hub-server.vercel.app"
+     audience="http://localhost:8000"
      scope="openid profile email"
     >
       <App />
