@@ -2,7 +2,7 @@ import {auth} from 'express-oauth2-jwt-bearer'
 
 const jwtCheck = auth({
     audience: "https://pitch-hub-server.vercel.app",
-    issuerBaseURL: "https://dev-03ifqltxbr6nn0hn.us.auth0.com",
+    issuerBaseURL: "https://dev-sc8lywc7rb0kor6k.us.auth0.com",
     tokenSigningAlg: "RS256"
 })
 
