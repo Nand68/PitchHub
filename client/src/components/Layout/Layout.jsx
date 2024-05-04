@@ -27,7 +27,7 @@ const Layout = () => {
 
       const res = await getAccessTokenWithPopup({
         authorizationParams: {
-          audience: "https://pitch-hub-server.vercel.app",
+          audience: "https://pitch-hub-server.vercel.app/api",
           scope: "openid profile email",
         },
       });
